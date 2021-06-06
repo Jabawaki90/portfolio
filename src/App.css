@@ -30,7 +30,7 @@
   font-size: medium;
 }
 
-#profile {
+#welcome-section {
   background-color: bisque;
   margin-top: 50px;
   display: flex;
@@ -52,7 +52,7 @@ img {
   margin-bottom: 50px;
 }
 
-#project {
+#projects {
   background-color: blueviolet;
 }
 
