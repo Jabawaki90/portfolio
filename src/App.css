@@ -43,7 +43,22 @@
   margin-top: 50px;
 }
 
-img {
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio {
+  display: flex;
+}
+
+.img-port {
+  width: 40%;
+}
+
+#profile-pic {
   width: 300px;
   height: 300px;
   border-radius: 50%;
