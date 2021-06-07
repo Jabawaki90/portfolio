@@ -27,12 +27,44 @@ function App() {
           <h1>Portfolio</h1>
           <div id="portfolio">
             <section class="img-container">
-              <img
-                class="img-port"
-                src={process.env.PUBLIC_URL + "/image/img1.png"}
-                alt=""
-              />
-              <h2 class="img-title">Form</h2>
+              <figure>
+                <img
+                  class="img-port"
+                  src={process.env.PUBLIC_URL + "/image/img1.png"}
+                  alt=""
+                />
+                <figcaption>Form</figcaption>
+              </figure>
+            </section>
+            <section class="img-container">
+              <figure>
+                <img
+                  class="img-port"
+                  src={process.env.PUBLIC_URL + "/image/img2.png"}
+                  alt=""
+                />
+                <figcaption>Tribute Page</figcaption>
+              </figure>
+            </section>
+            <section class="img-container">
+              <figure>
+                <img
+                  class="img-port"
+                  src={process.env.PUBLIC_URL + "/image/img3.png"}
+                  alt=""
+                />
+                <figcaption>Landing Page</figcaption>
+              </figure>
+            </section>
+            <section class="img-container">
+              <figure>
+                <img
+                  class="img-port"
+                  src={process.env.PUBLIC_URL + "/image/img4.png"}
+                  alt=""
+                />
+                <figcaption>Documentation</figcaption>
+              </figure>
             </section>
           </div>
         </section>
