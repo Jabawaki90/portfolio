@@ -1,4 +1,5 @@
 import "./App.css";
+import { FaLinkedin, FaFacebook, FaTwitter, FcCellPhone } from "react-icons/fa";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           />
         </section>
         <section id="projects">
-          <h1>Portfolio</h1>
+          <h1 id="portfolio-title">Portfolio</h1>
           <div id="portfolio">
             <section class="img-container">
               <figure>
@@ -69,7 +70,18 @@ function App() {
           </div>
         </section>
         <section id="contact">
-          <h1>contact</h1>
+          <h1>Lets build together!</h1>
+          <h6>"Alone we can do so little; together we can do so much."</h6>
+          <div className="icon">
+            <section class="social-media">
+              <FaLinkedin class="icon " />
+              <h3>LinkedIn</h3>
+            </section>
+            <section class="social-media">
+              <FaFacebook class="icon " />
+              <h3>Twitter</h3>
+            </section>
+          </div>
         </section>
         <footer id="footer">
           <h1>footer</h1>

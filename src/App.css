@@ -94,6 +94,11 @@ figcaption {
   background-color: chocolate;
 }
 
+.icon {
+  fill: blueviolet;
+  size: 70;
+}
+
 #footer {
   background-color: crimson;
 }
