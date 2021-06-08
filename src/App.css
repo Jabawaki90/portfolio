@@ -4,7 +4,7 @@
 }
 
 #header {
-  background-color: aqua;
+  background-color: bisque;
   display: flex;
   position: fixed;
   justify-content: space-between;
@@ -31,7 +31,7 @@
 }
 
 #welcome-section {
-  background-color: bisque;
+  background-color: #303841;
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -87,11 +87,11 @@ figcaption {
 }
 
 #projects {
-  background-color: blueviolet;
+  background-color: #45567d;
 }
 
 #contact {
-  background-color: chocolate;
+  background-color: #303841;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,18 +99,40 @@ figcaption {
   height: 400px;
 }
 
+#contact-title {
+  color: antiquewhite;
+  font-size: xx-large;
+  margin-bottom: 0px;
+}
+#quote {
+  color: antiquewhite;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 1px;
+}
+
 .icon {
-  fill: blueviolet;
+  fill: mintcream;
   size: 56;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-media {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: 15px;
+}
+
+.label {
+  color: antiquewhite;
 }
 
 #footer {
-  background-color: crimson;
+  background-color: #45567d;
+  display: flex;
+  flex-direction: row;
 }

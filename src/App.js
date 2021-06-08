@@ -71,33 +71,36 @@ function App() {
           </div>
         </section>
         <section id="contact">
-          <h1>Lets build together!</h1>
-          <h6>"Alone we can do so little; together we can do so much."</h6>
+          <h1 id="contact-title">Lets build together!</h1>
+          <h6 id="quote">
+            "Alone we can do so little; together we can do so much."
+          </h6>
           <div className="icon">
-            <section class="social-media">
+            <section id="linkedin" class="social-media">
               <FaLinkedin class="icon " />
-              <h3>LinkedIn</h3>
+              <h3 class="label">LinkedIn</h3>
             </section>
-            <section class="social-media">
+            <section id="facebook" class="social-media">
               <FaFacebook class="icon " />
-              <h3>Facebook</h3>
+              <h3 class="label">Facebook</h3>
             </section>
-            <section class="social-media">
+            <section id="twitter" class="social-media">
               <FaTwitter class="icon " />
-              <h3>Twitter</h3>
+              <h3 class="label">Twitter</h3>
             </section>
             <section class="social-media">
               <MdEmail class="icon " />
-              <h3>Email</h3>
+              <h3 class="label">Email</h3>
             </section>
             <section class="social-media">
               <MdPhoneAndroid class="icon " />
-              <h3>Call me</h3>
+              <h3 class="label">Call me</h3>
             </section>
           </div>
         </section>
         <footer id="footer">
-          <h1>footer</h1>
+          <h3>ashraf.chzm@gmail.com</h3>
+          <h3>+6016 201 9424</h3>
         </footer>
       </main>
     </>
