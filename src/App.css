@@ -92,11 +92,23 @@ figcaption {
 
 #contact {
   background-color: chocolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
 }
 
 .icon {
   fill: blueviolet;
-  size: 70;
+  size: 56;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
 }
 
 #footer {

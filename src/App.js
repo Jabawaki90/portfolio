@@ -1,5 +1,6 @@
 import "./App.css";
-import { FaLinkedin, FaFacebook, FaTwitter, FcCellPhone } from "react-icons/fa";
+import { FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
+import { MdPhoneAndroid, MdEmail } from "react-icons/md";
 
 function App() {
   return (
@@ -79,7 +80,19 @@ function App() {
             </section>
             <section class="social-media">
               <FaFacebook class="icon " />
+              <h3>Facebook</h3>
+            </section>
+            <section class="social-media">
+              <FaTwitter class="icon " />
               <h3>Twitter</h3>
+            </section>
+            <section class="social-media">
+              <MdEmail class="icon " />
+              <h3>Email</h3>
+            </section>
+            <section class="social-media">
+              <MdPhoneAndroid class="icon " />
+              <h3>Call me</h3>
             </section>
           </div>
         </section>
