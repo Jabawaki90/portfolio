@@ -1,5 +1,5 @@
 import "./App.css";
-import { FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
 import { MdPhoneAndroid, MdEmail } from "react-icons/md";
 
 function App() {
@@ -36,11 +36,13 @@ function App() {
           <div id="portfolio">
             <section class="img-container">
               <figure>
-                <img
-                  class="img-port"
-                  src={process.env.PUBLIC_URL + "/image/img1.png"}
-                  alt=""
-                />
+                <a href="https://codepen.io/jabawaki90/pen/abJVQLv">
+                  <img
+                    class="img-port"
+                    src={process.env.PUBLIC_URL + "/image/img1.png"}
+                    alt=""
+                  />
+                </a>
                 <figcaption>Form</figcaption>
               </figure>
             </section>
@@ -84,30 +86,48 @@ function App() {
           <div className="icon">
             <section id="linkedin" class="social-media">
               <FaLinkedin class="icon " />
-              <h3 class="label">LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/ashrafazemi/">
+                <h3 class="label">LinkedIn</h3>
+              </a>
             </section>
             <section id="facebook" class="social-media">
               <FaFacebook class="icon " />
-              <h3 class="label">Facebook</h3>
+              <a href="https://www.facebook.com/ashraf.azemi/">
+                <h3 class="label">Facebook</h3>
+              </a>
             </section>
-            <section id="twitter" class="social-media">
-              <FaTwitter class="icon " />
-              <h3 class="label">Twitter</h3>
+            <section id="github" class="social-media">
+              <FaGithub class="icon " />
+              <a href="https://github.com/Jabawaki90">
+                <h3 class="label">Github</h3>
+              </a>
             </section>
             <section class="social-media">
               <MdEmail class="icon " />
-              <h3 class="label">Email</h3>
+              <a href="#footer-email">
+                <h3 class="label">Email</h3>
+              </a>
             </section>
             <section class="social-media">
               <MdPhoneAndroid class="icon " />
-              <h3 class="label">Call me</h3>
+              <a href="#footer-tel">
+                <h3 class="label">Call me</h3>
+              </a>
             </section>
           </div>
         </section>
         <footer id="footer">
-          <h3>ashraf.chzm@gmail.com</h3>
-          <h3>+6016 201 9424</h3>
-          <h3>This page was built with React</h3>
+          <div className="left-side">
+            <h3 id="footer-email" class="child">
+              ashraf.chzm@gmail.com
+            </h3>
+            <h3 id="footer-tel" class="child">
+              +6016 201 9424
+            </h3>
+          </div>
+          <div className="right-side">
+            <h3>©This page was built with React</h3>
+          </div>
         </footer>
       </main>
     </>

@@ -11,6 +11,7 @@
   align-items: center;
   height: 50px;
   width: 100%;
+  z-index: 3;
 }
 
 #title {
@@ -29,6 +30,11 @@
   padding: 10px;
   font-size: medium;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: transform 250ms;
+}
+
+.nav-child:hover {
+  transform: translateY(10px);
 }
 
 a {
@@ -67,6 +73,8 @@ a {
 
 #portfolio-title {
   margin-top: 50px;
+  color: bisque;
+  text-decoration: underline;
 }
 
 #portfolio {
@@ -74,22 +82,40 @@ a {
   justify-content: space-around;
 }
 
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid bisque;
+  background-color: #303841;
+}
+
 .img-port {
   width: 100%;
   margin: auto;
-}
-
-.img-title {
+  margin-bottom: 0px;
 }
 
 .img-container {
   margin-top: 25px;
   margin-bottom: 25px;
+  transition: transform 250ms;
+}
+
+.img-container:hover {
+  transform: translateY(-10px);
+  z-index: 1;
 }
 
 figcaption {
-  background-color: aqua;
   text-align: center;
+  margin-top: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  color: bisque;
+
+  padding: 10px;
+  width: 100%;
 }
 
 #profile-pic {
@@ -140,6 +166,11 @@ figcaption {
   flex-direction: row;
   align-items: center;
   margin: 15px;
+  transition: transform 250ms;
+}
+
+.social-media:hover {
+  transform: translateY(-10px);
 }
 
 .label {
@@ -150,4 +181,20 @@ figcaption {
   background-color: #45567d;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.left-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: burlywood;
+  font-style: italic;
+}
+
+.child {
+  margin-left: 25px;
+}
+
+.right-side {
+  margin-right: 25px;
 }
