@@ -80,6 +80,7 @@ a {
 #portfolio {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 figure {
@@ -152,11 +153,19 @@ figcaption {
   margin-top: 1px;
 }
 
+.icon-container {
+  size: 56;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .icon {
   fill: mintcream;
   size: 56;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -197,4 +206,69 @@ figcaption {
 
 .right-side {
   margin-right: 25px;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 500px) {
+  #title {
+    font-size: 20px;
+  }
+
+  #contact-title {
+    font-size: xx-large;
+  }
+
+  #quote {
+    font-size: 10px;
+    font-weight: normal;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-media,
+  .icon,
+  .label {
+    margin: 3px;
+  }
+
+  #footer {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-side,
+  .right-side {
+    font-size: 10px;
+  }
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .child {
+    margin: 1px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .img-port {
+    width: 280px;
+    margin: auto;
+    margin-bottom: 0px;
+  }
+
+  #portfolio {
+    display: flex;
+    flex-direction: column;
+  }
 }
