@@ -11,14 +11,20 @@ function App() {
             <h1 id="title">Ashraf Azemi</h1>
           </div>
           <div class="nav">
-            <h1 class="nav-child">Profile</h1>
-            <h1 class="nav-child">Project</h1>
-            <h1 class="nav-child">Contact</h1>
+            <a href="#welcome-section">
+              <h1 class="nav-child">Profile</h1>
+            </a>
+            <a href="#projects">
+              <h1 class="nav-child">Project</h1>
+            </a>
+            <a href="#contact">
+              <h1 class="nav-child">Contact</h1>
+            </a>
           </div>
         </header>
         <section id="welcome-section">
           <h1 id="profile-title">Hey there! I am Ashraf</h1>
-          <h3>a self-taught web developer</h3>
+          <h3 id="profile-quote">a self-taught web developer</h3>
           <img
             id="profile-pic"
             src="https://scontent.fkul8-1.fna.fbcdn.net/v/t31.18172-8/13161912_10153859317843110_6677943647445087117_o.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeH3JXvZCM9BwYa7yXHXjgIX0iJxIxx6A8rSInEjHHoDypYtvD7HeFTZ5cobaWfC410&_nc_ohc=_iom4H810RMAX_b2aZN&_nc_ht=scontent.fkul8-1.fna&oh=4e02593c8b63b686a85be591e0e685fd&oe=60E1A62D"
@@ -101,6 +107,7 @@ function App() {
         <footer id="footer">
           <h3>ashraf.chzm@gmail.com</h3>
           <h3>+6016 201 9424</h3>
+          <h3>This page was built with React</h3>
         </footer>
       </main>
     </>
